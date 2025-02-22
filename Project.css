@@ -1,0 +1,196 @@
+#Statename{
+
+    font-size: 70px;
+   
+    text-align: center;
+    margin: 0% auto;
+    
+}
+
+body{
+    background-image: url("./india.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #0a0707;
+    
+}
+
+#Simg{
+    height: 500px;
+    width: 40%;
+    border-radius: 5%;
+    text-align: left;
+   
+  
+}
+    
+  
+   
+
+#search{
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+ padding: 5%;
+ opacity: 0.5; /* 50% opacity */
+ background-color: #0a0707;
+
+
+}
+
+
+
+#Info{
+   
+    flex-basis: 40%;
+  height: 200px;
+  /* background-color: #f2f2f2; */
+
+  padding: 3%;
+  padding-top: 0%;
+  font-size: large;
+  
+
+    
+}
+#outer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  
+  
+}
+#gin{
+display: none;
+
+margin-top: auto;
+padding: 80px;
+background-color:green;
+margin-left: 1%;
+align-content: flex-end;
+height: 40px;
+border-radius: 100%;
+
+}
+
+#hid{
+    display: none;
+   padding: 20%;
+    margin-top: auto;
+    padding: 80px;
+    background-color:orange;
+    margin-left: 7%;
+    align-content: flex-end;
+    height: 40px;
+    border-radius: 100%;
+
+    }
+    #toid{
+        display: none;
+      
+        margin-top: auto;
+        padding: 80px;
+        background-color:red;
+        margin-left: 7%;
+        align-content: flex-end;
+        height: 40px;
+        border-radius: 100%;
+        }
+        button{
+            margin: 2px;
+        }
+
+        #bb{
+            display: flex;
+        }
+    
+
+
+        /* Add this to your CSS file (Project.css) */
+#search-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    border-radius: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    width: 300px;
+}
+
+#search-input {
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    border-radius: 30px 0 0 30px;
+}
+
+#search-btn {
+    background: green;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 0 30px 30px 0;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#search-btn:hover {
+    background: darkgreen;
+}
+
+#search-btn i {
+    font-size: 18px;
+}
+
+#dtid{
+    display: none;
+}
+
+#sid{
+    color: orange;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 100px;
+   
+}
+
+
+  @keyframes slideRight {
+    0% { transform: translateX(-100%); opacity: 0; } /* Start off-screen */
+    10% { opacity: 1; } /* Fade in */
+    50% { transform: translateX(50vw); } /* Move to center */
+    100% { transform: translateX(100vw); opacity: 0; } /* Move off-screen */
+  }
+
+  #sid {
+    font-size: 50px;
+    position: absolute;
+    top: 20%;
+    left: 0;
+    white-space: nowrap; /* Prevents text wrapping */
+    animation: slideRight 10s infinite linear;
+  }
+
+
+
+
+
+
+body {
+   
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: skyblue;
+    
+}
+
+
